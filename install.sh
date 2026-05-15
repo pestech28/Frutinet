@@ -5,4 +5,8 @@ sudo apt install apache2 -y
 sudo ufw allow 8888/tcp
 sudo cp tinyproxy.conf /etc/tinyproxy -f
 sudo cp filter /etc/tinyproxy -f
+sudo cp sites/istart.conf /etc/apache2/sites-available/ -f
+sudo a2ensite istart.conf
+echo "127.0.0.1 istart.net" | sudo tee -a /etc/hosts
+sudo systemctl reload apache2
 sudo systemctl restart tinyproxy
