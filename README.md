@@ -1,5 +1,6 @@
 # Requirements
 * Any Linux Distro from 2016 and later
+* apt package manager (to be removed)
 # How to install
 1. Copy the files of this repo somehow
 2. Open the downloaded files folder
