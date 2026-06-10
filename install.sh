@@ -13,7 +13,7 @@ sudo tar -xfv www/istart.tar --overwrite -C /var/www/html/istart
 sudo cp sites/nintendo.conf /etc/apache2/sites-available/ -f
 sudo a2ensite nintendo.conf
 echo "127.0.0.1 nintendo.com" | sudo tee -a /etc/hosts
-sudo mkdir /var/www/html/restore/nintendo\
+sudo mkdir /var/www/html/restore/nintendo/
 sudo tar -xfv www/restore/nintendo.tar --overwrite -C /var/www/html/restore/nintendo
 sudo cp sites/apple.conf /etc/apache2/sites-available/ -f
 sudo a2ensite apple.conf
