@@ -10,3 +10,15 @@
 # Rules to be added as a pass through
 1. The site must use Frutiger Aero, a sub aethetic of Frutiger Aero or a 2006-2011 flash animation design
 2. The website must work on either IE 7/8/9 Firefox 3/4/5/6 Safari 3/4 or Chrome 1/2/3/4/5
+
+# Credit
+[Tiny Proxy](https://tinyproxy.github.io/)
+
+[Apache2](https://httpd.apache.org/)
+
+[Way Back Machine](https://web.archive.org/)
+
+# Restore Website Reference
+[Nintendo](https://web.archive.org/web/20100504194317/http://www.nintendo.com/)
+
+[Apple](http://web.archive.org/web/20100519224206/http://www.apple.com/)
