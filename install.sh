@@ -14,7 +14,7 @@ sudo cp sites/nintendo.conf /etc/apache2/sites-available/ -f
 sudo a2ensite nintendo.conf
 echo "127.0.0.1 nintendo.com" | sudo tee -a /etc/hosts
 sudo mkdir /var/www/html/restore/nintendo/
-sudo tar -xvf www/restore/nintendo.tar --overwrite -C /var/www/html/restore/nintendo
+sudo tar -xvzf www/restore/nintendo.tar.gz --overwrite -C /var/www/html/restore/nintendo
 sudo cp sites/apple.conf /etc/apache2/sites-available/ -f
 sudo a2ensite apple.conf
 echo "127.0.0.1 apple.com" | sudo tee -a /etc/hosts
