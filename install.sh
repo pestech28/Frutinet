@@ -5,7 +5,7 @@ sudo apt install apache2 -y
 sudo ufw allow 8888/tcp
 sudo cp tinyproxy/tinyproxy.conf /etc/tinyproxy -f
 sudo cp tinyproxy/filter /etc/tinyproxy -f
-sudo tar -xvf www/front.tar --overwrite -C /var/www/html
+sudo tar -xvzf www/front.tar.gz --overwrite -C /var/www/html
 sudo mkdir /var/www/html/restore/istart/
 sudo mkdir /var/www/html/restore/restore/
 sudo mkdir /var/www/html/restore/live/
