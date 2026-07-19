@@ -23,5 +23,10 @@ sudo a2ensite apple.conf
 echo "127.0.0.1 apple.com" | sudo tee -a /etc/hosts
 sudo mkdir /var/www/html/restore/apple
 sudo tar -xvzf www/restore/apple.tar.gz --overwrite -C /var/www/html/restore/apple
+sudo cp sites/microsoft.conf /etc/apache2/sites-available/ -f
+sudo a2ensite microsoft.conf
+echo "127.0.0.1 microsoft.com" | sudo tee -a /etc/hosts
+sudo mkdir /var/www/html/restore/microsoft/
+sudo tar -xvzf www/restore/microsoft.tar.gz --overwrite -C /var/www/html/restore/microsoft
 sudo systemctl reload apache2
 sudo systemctl restart tinyproxy
