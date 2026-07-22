@@ -22,3 +22,5 @@
 [Nintendo](https://web.archive.org/web/20100504194317/http://www.nintendo.com/)
 
 [Apple](http://web.archive.org/web/20100519224206/http://www.apple.com/)
+
+[Microsoft](http://web.archive.org/web/20101016232200/http://microsoft.com/)
