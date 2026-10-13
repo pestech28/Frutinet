@@ -7,6 +7,7 @@
 4. Run ``` chmod +x ./install.sh ```
 5. Run ``` sudo ./install.sh ```
 6. In a separate ttyl or terminal windows run ``` cd /var/www/html/live/headlines | sudo headlines.py ```
+7. In a separate ttyl or terminal windows run ``` cd /var/www/html/live/forecast | sudo forecast.py ```
 
 # Rules to be added as a pass through
 1. The site must use Frutiger Aero, a sub aethetic of Frutiger Aero or a 2006-2011 flash animation design
